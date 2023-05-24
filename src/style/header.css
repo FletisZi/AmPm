@@ -17,6 +17,7 @@ header span{
     position: relative;
     right: 1vw;
     text-align: center;
+    margin-right: 4px;
 }
 
 header img{
