@@ -1,0 +1,91 @@
+
+h2{
+    font-family: Bebas Neue;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #F3DFA0;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-family: Bebas Neue;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0.25em;
+    text-align: left;
+    color: #EAEAEA;
+}
+
+article{
+    width: 90%;
+    display: grid;
+    grid-template-areas: 'image wrapper wrapper wrapper wrapper wrapper';
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.image-products{
+
+    grid-area:image;
+    width: 116px;
+    height: 172px;
+    border-radius: 6px;
+    object-fit: cover;
+    
+}
+
+
+.wrapper{
+    grid-area:wrapper;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.information p{
+    font-family: Roboto Slab;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #EAEAEA;
+}
+
+
+
+
+
+.information-secund{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    font-family: Bebas Neue;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    
+    display: flex;
+    width: 64px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #F3DFA0;
+}
+.price span{
+    font-size: 24px;
+    
+}

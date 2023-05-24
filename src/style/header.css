@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header span{
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #F3DFA0;
+    position: relative;
+    right: 1vw;
+    text-align: center;
+}
+
+header img{
+    position: relative;
+    left: 2vw;
+    top: 1.4375rem;
+}
+
