@@ -16,9 +16,12 @@
     <link rel="stylesheet" href="../src/style/categories.css">
     <link rel="stylesheet" href="../src/style/cards-products.css">
     <link rel="stylesheet" href="../src/style/footer.css">
+    <link rel="stylesheet" href="../src/style/icons.css">
     
     <title>AMPM | Estrela D'alva</title>
-    <script src="../src/ui/index.js" defer></script>
+    <script src="../src/ui/index.js" defer type="module">
+        
+    </script>
 </head>
 <body>
     <header>
@@ -35,7 +38,9 @@
         </p>
         <img src="../public/ampmpropaganda.png" alt="">
     </div>
+
     <main>
+
 
         <section class="categories">
             <a href="#foods">Foods</a>
@@ -232,8 +237,8 @@
 
                     <div class="information">
 
-                        <h3 class="title-third">Fuji</h3>
-                        <p class="description">Fuji sabores de queijo e queijo com bacon.</p>
+                        <h3 class="title-third">Quiche</h3>
+                        <p class="description">Quiche sabores de queijo e queijo com bacon.</p>
 
                     </div>
                     <div class="information-secund">
@@ -265,6 +270,26 @@
 
                         <img src="../public/like.svg" alt="" class="like">
                         <div class="price">R$<span>7</span>,99</div>
+
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <img src="../public/cappuccinoGelado.JPG" alt="" class="image-products">
+
+                <div class="wrapper">
+
+                    <div class="information">
+
+                        <h3 class="title-third">Cappuccino Gelado</h3>
+                        <p class="description">Cappuccino doce gelado c/ nutella.</p>
+
+                    </div>
+                    <div class="information-secund">
+
+                        <img src="../public/like.svg" alt="" class="like">
+                        <div class="price">R$<span>9</span>,99</div>
 
                     </div>
                 </div>
@@ -372,56 +397,21 @@
 
         </section>
 
-        <section class="products-foods">
+        <section class="products-foods doces">
             <h2 id="doces">DOCES</h2>
 
-            <article>
-                <img src="../public/Muffin.JPG" alt="" class="image-products">
-
-                <div class="wrapper">
-
-                    <div class="information">
-
-                        <h3 class="title-third">Muffin</h3>
-                        <p class="description">Muffin sabores de baunilha e chocolate.</p>
-
-                    </div>
-                    <div class="information-secund">
-
-                        <img src="../public/like.svg" alt="" class="like">
-                        <div class="price">R$<span>8</span>,99</div>
-
-                    </div>
-                </div>
-            </article>
-
-            <article>
-                <img src="../public/Donuts.JPG" alt="" class="image-products">
-
-                <div class="wrapper">
-
-                    <div class="information">
-
-                        <h3 class="title-third">Donut's</h3>
-                        <p class="description">Donut's sabores de chocolate, doce de leite e frutas vemelhas.</p>
-
-                    </div>
-                    <div class="information-secund">
-
-                        <img src="../public/like.svg" alt="" class="like">
-                        <div class="price">R$<span>8</span>,99</div>
-
-                    </div>
-                </div>
-            </article>
 
         </section>
     </main>
+
+    <div class="icon-insta"></div>
+
     <footer>
-        <div class="pruductor">
+        <div class="pruductor" onclick="goInsta()">
             © 2020 RS Products by System
         </div>
     </footer>
 </body>
+
 
 </html>

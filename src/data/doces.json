@@ -1,0 +1,48 @@
+{
+    "doces":[
+        {
+            "urlIMG":"../public/Muffin.JPG",
+            "title":"Muffin",
+            "description":"Muffin sabores de baunilha e chocolate.",
+            "priceReal": "8",
+            "priceCent":",99"
+        },
+        {
+            "urlIMG":"../public/Donuts.JPG",
+            "title":"Donut's",
+            "description":"Donut's sabores de chocolate, doce de leite e frutas vemelhas.",
+            "priceReal": "8",
+            "priceCent":",99"
+        },
+
+        {
+            "urlIMG":"../public/Cupcake.JPG",
+            "title":"Cupcake",
+            "description":"Cupcake chocolate.",
+            "priceReal": "7",
+            "priceCent":",99"
+        },
+        {
+            "urlIMG":"../public/Sonho.JPG",
+            "title":"Sonho",
+            "description":"Sonho sabores creme e doce de leite.",
+            "priceReal": "6",
+            "priceCent":",99"
+        },
+        {
+            "urlIMG":"../public/Bomba.JPG",
+            "title":"Bomba",
+            "description":"Bomba de chocolate.",
+            "priceReal": "6",
+            "priceCent":",99"
+        },
+        {
+            "urlIMG":"../public/Conerecheado.JPG",
+            "title":"Cone Recheado",
+            "description":"Cone recheado c/ doce de leite.",
+            "priceReal": "3",
+            "priceCent":",99"
+        }
+        
+    ]
+}
