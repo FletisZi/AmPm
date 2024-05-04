@@ -89,3 +89,37 @@ article{
     font-size: 24px;
     
 }
+
+
+
+/* estylo das imagem grandes ao clicar */
+
+.containerIMGSample{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(0,0,0,0.5188200280112045) 100%);
+}
+
+.IMGSample{
+
+    width: 90%;
+    height: 90%;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#closeIMGSample{
+    position: absolute;
+
+    top: 8vh;
+    right: 8vw;
+}
